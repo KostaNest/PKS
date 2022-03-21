@@ -9,12 +9,11 @@ on:
   push:
     branches: 
       -master
-      
+    
       
 jobs: 
   Kosta-CI-part:
       runs-on: Windows-latest
-
       steps:
       - name: Git clone our repo      
         uses: actions/checkout@v2
